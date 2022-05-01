@@ -51,6 +51,8 @@ npm test
 ```
 ### Results Example
 
+```bash
+
 > api-test@1.0.0 test
 > mocha "test.js"
 
@@ -75,7 +77,7 @@ npm test
 ------------------------------------------------------------
  Status: 201
 Gist ID: de2ea10d9176834691afa20b5a2cd3b0
-    :heavy_check_mark: Test 1 - Create a new gist (742ms)
+     Test 1 - Create a new gist (742ms)
 
 -------------------- 2: No files -------------------------------------------
  {
@@ -90,7 +92,7 @@ Gist ID: de2ea10d9176834691afa20b5a2cd3b0
  Status: 422
 {"message":"Invalid request.\n\n\"files\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/gists#create-a-gist"}
 null
-    :heavy_check_mark: Test 2 - Create a new gist - no file parameter (717ms)
+     Test 2 - Create a new gist - no file parameter (717ms)
 
 ------------------- 3: No User Agent in headers -----------------------
  { Authorization: 'token ghp_YourOwnAuthorizationTokenWillAppearHere' } {
@@ -108,13 +110,13 @@ null
 
 Request forbidden by administrative rules. Please make sure your request has a User-Agent header (https://docs.github.com/en/rest/overview/resources-in-the-rest-api#user-agent-required). Check https://developer.github.com for other possible causes.
 
-    :heavy_check_mark: Test 3 - Create a new gist - no user agent (521ms)
+     Test 3 - Create a new gist - no user agent (521ms)
 
 
   3 passing (2s)
 
 
-
+```
 
 ## Resources
 Setting up Authorisation Headers for GitHub API
