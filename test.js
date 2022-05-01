@@ -22,7 +22,7 @@ var data = {"accept":"application/vnd.github.v3+json",
             };
 
 var data_no_files = {"accept":"application/vnd.github.v3+json",
-            "description":"GIST created by JavaScript code",
+            "description": gistDescription,
             "public":true,
             };
 

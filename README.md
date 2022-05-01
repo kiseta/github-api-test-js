@@ -1,5 +1,5 @@
 # About
-GitHub API Test (POST Gist) 
+GitHub API Test (POST the Gist via GitHub API) 
 
 Test Example contains 3 tests:
 - Test 1 - Create a new gist - expected results: Status 201, OK
