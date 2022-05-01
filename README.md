@@ -51,8 +51,6 @@ npm test
 ```
 ### Results Example
 
-```bash
-
 > api-test@1.0.0 test
 > mocha "test.js"
 
@@ -116,7 +114,7 @@ Request forbidden by administrative rules. Please make sure your request has a U
   3 passing (2s)
 
 
-```
+
 
 ## Resources
 Setting up Authorisation Headers for GitHub API
