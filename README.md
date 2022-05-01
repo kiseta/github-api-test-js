@@ -19,8 +19,8 @@ Mocha is a popular JavaScript test framework that runs on Node.js.
 ## How to use
 #### Clone the project to your local machine
 
-```bash
-git clone git@github.com:kiseta/api-test-js-demo.git
+```
+git clone git@github.com:kiseta/github-api-test-js.git
 ```
 #### Install the dependencies from package.json
 ```
